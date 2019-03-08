@@ -24,8 +24,8 @@ class CardGame
   if card1.value > card2.value    # missing comma between parameters card1 and card 2
     return card.name              # use consistent naming standard,i.e camel case or underscore
   else                            # 'card' not defined,  should be card1 or card2
-    card2                         # card doent have name attribute
-                                  # returning whole of card2,  arguably they want card2.name
+    card2                         # card1&2 dont have name attribute
+                                  #should also explicitly return card2 to be consistent
   end
 end
 end                               #extra 'end'  will end class here
